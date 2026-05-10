@@ -52,6 +52,11 @@
             <button type="button" class="btn btn-signup-header">Sign Up</button>
           </li>
         </ul>
+        <button class="header-mobile-burger-button">
+          <svg class="icon-burger-menu-mobile" width="28" height="31">
+            <use href="./images/sprite.svg#icon-burger-menu-mobile"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -326,5 +331,34 @@
         </div>
       </div>
     </footer>
+
+    <!-- #region mobile header menu -->
+
+    <div class="menu-mobile-header-wrapper is-hidden">
+      <div class="header-mobile-menu is-open">
+        <button class="header-mobile-menu-close">
+          <svg class="icon-popup-close">
+            <use href="./images/sprite.svg#icon-popup-close"></use>
+          </svg>
+        </button>
+        <ul class="header-mob-menu-nav-list">
+          <li><a href="./index.html">Product</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="">Resources</a></li>
+        </ul>
+
+        <ul class="header-mob-menu-btn">
+          <li>
+            <button type="button" class="btn btn-signin-header">Sign In</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-signup-header">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- #endregion mobile header menu -->
   </body>
 </html>

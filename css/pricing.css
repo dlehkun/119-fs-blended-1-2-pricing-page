@@ -178,6 +178,8 @@ header a {
 }
 /* #endregion header */
 
+/* #region Pricing */
+
 .pricing-container {
   padding-top: 50px;
   padding-bottom: 150px;
@@ -341,6 +343,8 @@ margin-bottom: 49px;
     align-items: center;
   }
 }
+
+/* #endregion Pricing */
 
 /* #region JOIN HUNDRED */
 
