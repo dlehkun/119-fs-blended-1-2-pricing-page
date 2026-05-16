@@ -178,6 +178,54 @@ header a {
 }
 /* #endregion header */
 
+/* #region Enterprice */
+
+.section-enterprice {
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.enterprice-container {
+  padding-top: 53px;
+  padding-bottom: 51px;
+}
+
+.enterprice-container h2 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.enterprice-container h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.enterprice-container p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: var(--main-color);
+}
+
+.btn-with-us {
+  display: block;
+  width: 224px;
+  height: 44px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+  margin: 0 auto;
+}
+
+/* #endregion Enterprice */
+
 /* #region Pricing */
 
 .pricing-container {
@@ -202,12 +250,12 @@ header a {
   margin-bottom: 16px;
 }
 
-.pricing-container > p{
-color: var(--main-color);
-font-weight: 500;
-font-size: 16px;
-text-align: center;
-margin-bottom: 49px;
+.pricing-container > p {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 49px;
 }
 
 .price-cards {
