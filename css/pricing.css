@@ -324,6 +324,11 @@ header a {
   margin-bottom: 14px;
 }
 
+.questions-list li .question-name h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .questions-list li p {
   margin-bottom: 24px;
   font-size: 16px;
